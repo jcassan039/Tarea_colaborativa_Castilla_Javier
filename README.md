@@ -1,4 +1,3 @@
-
 Algoritmo adivina_numero
     intentos<-10
     num_secreto <- azar(100)+1
@@ -9,7 +8,7 @@ Algoritmo adivina_numero
             Escribir "Muy bajo"
         SiNo
             Escribir "Muy alto"
-			
+
         FinSi
         intentos <- intentos-1
         Escribir "Le quedan" ,intentos," intentos:"
@@ -20,5 +19,5 @@ Algoritmo adivina_numero
     SiNo
         Escribir "El numero era: ",num_secreto
     FinSi
-	
+
 FinAlgoritmo
