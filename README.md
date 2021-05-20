@@ -1,3 +1,4 @@
+
 Algoritmo adivina_numero
     intentos<-10
     num_secreto <- azar(100)+1
